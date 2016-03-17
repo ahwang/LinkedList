@@ -240,16 +240,4 @@ public class List<T extends Comparable<T>> implements Iterable<T> {
 	    return newList;
 	}
 
-	public Iterator<T> iterator() {
-		throw new UnsupportedOperationException("You must write this method.");
-	}
-
-	public Comparator<List<T>> lengthComparator() {
-		throw new UnsupportedOperationException("You must write this method.");
-	}
-
-	public Comparator<List<T>> orderComparator() {
-		throw new UnsupportedOperationException("You must write this method.");
-	}
-
 }
